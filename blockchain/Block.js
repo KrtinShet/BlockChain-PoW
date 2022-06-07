@@ -11,8 +11,9 @@ class Block {
     this.nonce = nonce;
     this.difficulty = difficulty;
   }
+
   static genesis() {
-    return new Block(GENESIS_BLOCK_DATA);
+    return new this(GENESIS_BLOCK_DATA);
   }
 
   static mineBlock({ lastBlock, data }) {
