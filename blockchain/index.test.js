@@ -95,6 +95,28 @@ describe("Blockchain", () => {
     });
   });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   describe("replaceChain()", () => {
     let logMock;
 
@@ -120,6 +142,25 @@ describe("Blockchain", () => {
       });
     });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     describe("when the new chain is longer", () => {
       beforeEach(() => {
         newChain.addBlock({ data: "Bears" });
@@ -171,6 +212,42 @@ describe("Blockchain", () => {
       });
     });
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   describe("validTransactionData()", () => {
     let transaction, rewardTransaction, wallet;
